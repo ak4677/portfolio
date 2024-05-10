@@ -1,6 +1,17 @@
     .template{
         background: linear-gradient(to bottom right, rgb(21, 168, 221), rgb(29, 238, 245),rgb(50, 143, 235));
     }
+    .front{
+        display: flex;
+    }
+    .face{
+        display: block;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 400px;
+        height: 500px;
+        border-radius: 300px;
+    }
     .img{
         display: block;
         margin-left: 70px;
@@ -88,7 +99,7 @@
     font-size: 22px;
     position: absolute;
     overflow: hidden;
-    top: 40%;
+    top: 50%;
     left: 35.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
